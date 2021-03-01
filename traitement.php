@@ -22,7 +22,7 @@
         $sql = "INSERT INTO casier(
             nom, prenom, sexe, nationalite , date_naissance , pays, profession, lieu_residence,
             email, numero_telephone, situation_matrimoniale,nombre_enfants,nom_pere,nom_mere)
-        VALUES (?, ?, ?, ? , ? , ? , ? , ?, ? , ? , ? , ? , ? , ?) ";
+        VALUES (?, ?, ?, ? , ? , ? , ? , ?, ? , ? , ? , ? , ? , ?)";
 
         $connexion->prepare($sql)->execute([$nom, $prenom, $sexe, $nationalite , $date_naissance , $pays , $profession , $lieu_residense,
         $email , $numero_telephone , $situation_matrimoniale , $nombre_enfants , $nom_pere , $nom_mere]);

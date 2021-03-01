@@ -17,11 +17,11 @@
             <h1>Délivrance du Casier judiciaire (Extrait B3 du casier judiciaire)</h1>
             <div class="col-md-6 form-group">
                 <label for="nom">Nom</label> <span>*</span> 
-                <input type="text" name="nom" id="nom" class="form-control">
+                <input type="text" name="nom" id="nom" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="prenom">Prénom</label> <span>*</span> 
-                <input type="text" name="prenom" id="prenom" class="form-control">
+                <input type="text" name="prenom" id="prenom" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="sexe">Sexe</label> <span>*</span> 
@@ -42,7 +42,7 @@
             </div>
             <div class="col-md-6 form-group">
                 <label for="date_naissance">Date de naissance</label> <span>*</span> 
-                <input type="date" name="date_naissance" id="date_naissance" class="form-control">
+                <input type="date" name="date_naissance" id="date_naissance" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="pays">Pays</label> <span>*</span> 
@@ -54,20 +54,20 @@
             </div>
             <div class="col-md-6 form-group">
                 <label for="profession">Profession</label> <span>*</span> 
-                <input type="text" name="profession" id="profession" class="form-control">
+                <input type="text" name="profession" id="profession" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="lieu_residense">Lieu de résidense</label> <span>*</span> 
-                <input type="text" name="lieu_residense" id="lieu_residense" class="form-control">
+                <input type="text" name="lieu_residense" id="lieu_residense" class="form-control" required>
             </div>
             <h2>Veuillez entrer une adresse mail valide. Votre casier judiciaire vous sera transmis par mail</h2>
             <div class="col-md-6 form-group">
                 <label for="email">Email</label> <span>*</span> 
-                <input type="text" name="email" id="email" class="form-control">
+                <input type="text" name="email" id="email" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="numero_telephone">Numéro de téléphone</label> <span>*</span> 
-                <input type="text" name="numero_telephone" id="numero_telephone" class="form-control">
+                <input type="text" name="numero_telephone" id="numero_telephone" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="situation_matrimoniale">Situation matrimoniale</label> <span>*</span> 
@@ -81,15 +81,15 @@
             </div>
             <div class="col-md-6 form-group">
                 <label for="nombre_enfants">Nombre d'enfants à charge</label> <span>*</span> 
-                <input type="text" name="nombre_enfants" id="nombre_enfants" class="form-control">
+                <input type="text" name="nombre_enfants" id="nombre_enfants" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="nom_pere">Nom et Prénoms du père</label> <span>*</span> 
-                <input type="text" name="nom_pere" id="nom_pere" class="form-control">
+                <input type="text" name="nom_pere" id="nom_pere" class="form-control" required>
             </div>
             <div class="col-md-6 form-group">
                 <label for="nom_mere">Nom et Prénoms du mère</label> <span>*</span> 
-                <input type="text" name="nom_mere" id="nom_mere" class="form-control">
+                <input type="text" name="nom_mere" id="nom_mere" class="form-control" required>
             </div>
             <h2>Veuillez fournir une copie de votre acte de naissance.</h2>
             <div class="col-md-6 form-group">
